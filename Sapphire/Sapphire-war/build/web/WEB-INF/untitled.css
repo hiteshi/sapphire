@@ -1,0 +1,64 @@
+/* 
+    Document   : untitled
+    Created on : 4 Sep, 2012, 3:16:17 PM
+    Author     : ubuntu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+textarea {
+  overflow: auto;
+  width: 100%;
+/*  border: none;*/
+}
+#Template, #Tutorial, #Examples{
+    display: block;
+}
+body{
+    background-color: #222;
+}
+#div1 {width:350px;height:70px;padding:10px;border:1px solid #aaaaaa;}
+#editor {
+    
+    display: inline;
+    float: left;
+    background-color: #fff;
+/*    border: thick solid;*/
+    width: 60%;
+    height: 80%
+}
+
+#header {
+    display: block;
+    background-color: #0ff;
+/*    border: thick solid;*/
+    width: 100%;
+}
+
+#footer {
+    display: block;
+    background-color: #04f;
+/*    border: thick solid;*/
+    width: 100%;
+}
+#rightColumn {
+    display: inline;
+    float: right;
+    background-color: #888;
+/*    border: thick solid;*/
+    width: 20%;
+    height: 80%
+}
+
+#leftColumn {
+    display: inline;
+    float: left;
+    background-color: #888;
+/*    border: thick solid;*/
+    width: 20%;
+    height: 80%
+}
